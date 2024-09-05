@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data_handler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "data_handler.cc",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
+              "RelativeDocumentMoniker": "MachineLearningBuild\\data_handler.cc",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
+              "RelativeToolTip": "MachineLearningBuild\\data_handler.cc",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-02T14:10:26.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "data.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data.hpp",
+              "RelativeDocumentMoniker": "MachineLearningBuild\\data.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data.hpp",
+              "RelativeToolTip": "MachineLearningBuild\\data.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-02T14:31:36.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "data.cc",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data.cc",
+              "RelativeDocumentMoniker": "MachineLearningBuild\\data.cc",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data.cc",
+              "RelativeToolTip": "MachineLearningBuild\\data.cc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T05:44:54.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "data_handler.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.hpp",
+              "RelativeDocumentMoniker": "MachineLearningBuild\\data_handler.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.hpp",
+              "RelativeToolTip": "MachineLearningBuild\\data_handler.hpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T05:43:00.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
