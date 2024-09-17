@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\Algorithm.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|solutionrelative:AlgorithmBuild\\Algorithm.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\Algorithm.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|solutionrelative:AlgorithmBuild\\Algorithm.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "data_handler.cc",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
+              "RelativeDocumentMoniker": "MachineLearningBuild\\data_handler.cc",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
+              "RelativeToolTip": "MachineLearningBuild\\data_handler.cc",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-09T04:48:15.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "algorithm.cc",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\algorithm.cc",
+              "RelativeDocumentMoniker": "AlgorithmBuild\\algorithm.cc",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\algorithm.cc",
+              "RelativeToolTip": "AlgorithmBuild\\algorithm.cc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-05T12:04:16.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Algorithm.hpp",
-              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\Algorithm.hpp",
-              "RelativeDocumentMoniker": "AlgorithmBuild\\Algorithm.hpp",
-              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\Algorithm.hpp",
-              "RelativeToolTip": "AlgorithmBuild\\Algorithm.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Title": "algorithm.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\algorithm.hpp",
+              "RelativeDocumentMoniker": "AlgorithmBuild\\algorithm.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\algorithm.hpp",
+              "RelativeToolTip": "AlgorithmBuild\\algorithm.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T11:03:19.118Z",
               "EditorCaption": ""
