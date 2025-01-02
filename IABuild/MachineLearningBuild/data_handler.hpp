@@ -18,9 +18,11 @@ class data_handler
 	std::vector<data *> *test_data;
 	std::vector<data *> *validation_data;
 
-	int num_clases;
+	int num_classes;
 	int feature_vector_size;
 	std::map<uint8_t, int> class_map;
+
+	std::map<std::string, int> string_data_class_map;
 
 	const double TRAIN_SET_PERCENT = 0.75;
 	const double TEST_SET_PERCENT = 0.20;
@@ -29,6 +31,8 @@ class data_handler
 public:
 	data_handler();
 	~data_handler();
+
+	void read_csv(std::string path, std::string delimiter);
 
 	void read_feature_vector(std::string path);
 	void read_feature_labels(std::string path);
@@ -40,6 +44,7 @@ public:
 	std::vector<data*>* get_training_data();
 	std::vector<data*>* get_test_data();
 	std::vector<data*>* get_validation_data();
+	int get_class_counts();
 
 private:
 	const char* HEADER_SUCCEED = "Succeeded processing header file.\n";

@@ -24,6 +24,7 @@
     <ProjectGuid>{3fa9eca2-effb-435a-8f8d-4651958a4416}</ProjectGuid>
     <RootNamespace>AlgorithmBuild</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AlgorithmKNNBuild</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,10 +130,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="algorithm.hpp" />
+    <ClInclude Include="knn_alg.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="algorithm.cc" />
+    <ClCompile Include="knn_alg.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MachineLearningBuild\MachineLearningBuild.vcxproj">

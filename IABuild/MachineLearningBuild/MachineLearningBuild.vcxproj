@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="common.hpp" />
     <ClInclude Include="data.hpp" />
     <ClInclude Include="data_handler.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="common.cc" />
     <ClCompile Include="data.cc" />
     <ClCompile Include="data_handler.cc" />
   </ItemGroup>
