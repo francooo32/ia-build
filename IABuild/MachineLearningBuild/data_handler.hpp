@@ -1,6 +1,6 @@
-#ifndef __DATA_HANDLER_H
+#ifndef __DATA_HANDLER_HPP
 #define _CRT_SECURE_NO_WARNINGS
-#define __DATA_HANDLER_H
+#define __DATA_HANDLER_HPP
 
 #include <fstream>
 #include <vector>
@@ -24,9 +24,9 @@ class data_handler
 
 	std::map<std::string, int> string_data_class_map;
 
-	const double TRAIN_SET_PERCENT = 0.75;
-	const double TEST_SET_PERCENT = 0.20;
-	const double VALIDATION_SET_PERCENT = 0.05;
+	const double TRAIN_SET_PERCENT = .1;
+	const double TEST_SET_PERCENT = .075;
+	const double VALIDATION_SET_PERCENT = 0.005;
 
 public:
 	data_handler();
@@ -38,6 +38,7 @@ public:
 	void read_feature_labels(std::string path);
 	void split_data();
 	void count_classes();
+	void normalize();
 
 	uint32_t convert_to_little_endian(const unsigned char* bytes);
 

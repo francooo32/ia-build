@@ -1,4 +1,5 @@
 #include "kmeans_alg.hpp"
+#include "time.h"
 
 kmeans_alg::kmeans_alg(int k)
 {
@@ -112,37 +113,46 @@ double kmeans_alg::test()
 	return 100.0 * (num_correct / (double)test_data->size());
 }
 
-int main()
-{
-	data_handler* dh = new data_handler();
-	dh->read_feature_vector("../MNIST_data/train-images.idx3-ubyte");
-	dh->read_feature_labels("../MNIST_data/train-labels.idx1-ubyte");
-	dh->split_data();
-	dh->count_classes();
-	double performance = 0.0;
-	double best_performance = 0.0;
-	int best_k = 1;
-	for (int k = dh->get_class_counts(); k < dh->get_training_data()->size() * 0.1; k++)
-	{
-		kmeans_alg* km = new kmeans_alg(k);
-		km->set_training_data(dh->get_training_data());
-		km->set_test_data(dh->get_test_data());
-		km->set_validation_data(dh->get_validation_data());
-		km->init_cluster();
-		km->train();
-		performance = km->validate();
-		printf("Actual performance at K position is = %d: %2.f", k, performance);
-		if (performance > best_performance) 
-		{
-			best_performance = performance;
-			best_k = k;
-		}
-	}
-	kmeans_alg* km = new kmeans_alg(best_k);
-	km->set_training_data(dh->get_training_data());
-	km->set_test_data(dh->get_test_data());
-	km->set_validation_data(dh->get_validation_data());
-	km->init_cluster();
-	performance = km->test();
-	printf("Actual tested performance at K position is = %d: %2.f", best_k, performance);
-}
+//int main()
+//{
+//	data_handler* dh = new data_handler();
+//	dh->read_feature_vector("../MNIST_data/train-images.idx3-ubyte");
+//	dh->read_feature_labels("../MNIST_data/train-labels.idx1-ubyte");
+//	dh->split_data();
+//	dh->count_classes();
+//	double performance = 0.0;
+//	double best_performance = 0.0;
+//	int best_k = 1;
+//	for (int k = dh->get_class_counts(); k < dh->get_training_data()->size() * 0.1; k++)
+//	{
+//		clock_t start = clock();
+//		
+//		kmeans_alg* km = new kmeans_alg(k);
+//		km->set_training_data(dh->get_training_data());
+//		km->set_test_data(dh->get_test_data());
+//		km->set_validation_data(dh->get_validation_data());
+//		km->init_cluster();
+//		km->train();
+//		performance = km->validate();
+//		printf("Actual performance at K position is = %d: %2.f \n", k, performance);
+//		printf("Performance is: %2.f and best performance is %2.f \n", performance, best_performance);
+//		if (performance > best_performance) 
+//		{
+//			best_performance = performance;
+//			best_k = k;
+//		}
+//
+//		clock_t end = clock();
+//		float seconds = (float)(end - start);
+//		printf("Finished at: %2.f \n", seconds);
+//	}
+//	printf("Ended performance kmeans iteration. \n");
+//	printf("Best k is: %d \n", best_k);
+//	kmeans_alg* km = new kmeans_alg(best_k);
+//	km->set_training_data(dh->get_training_data());
+//	km->set_test_data(dh->get_test_data());
+//	km->set_validation_data(dh->get_validation_data());
+//	km->init_cluster();
+//	performance = km->test();
+//	printf("Actual tested performance at K position is = %d: %2.f \n", best_k, performance);
+//}

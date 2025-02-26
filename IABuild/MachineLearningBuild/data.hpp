@@ -1,5 +1,5 @@
-#ifndef __DATA_H
-#define __DATA_H
+#ifndef __DATA_HPP
+#define __DATA_HPP
 
 #include <vector>
 #include "stdint.h"

@@ -1,6 +1,6 @@
-#ifndef __KNN_ALG_H
+#ifndef __KNN_ALG_HPP
 #define _CRT_SECURE_NO_WARNINGS
-#define __KNN_ALG_H
+#define __KNN_ALG_HPP
 
 #include "common.hpp"
 
