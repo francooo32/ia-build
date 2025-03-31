@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B716AA8-1556-4013-B4C3-FF0028B860EA}|AlgorithmKMEANSBuild\\AlgorithmKMEANSBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IaBuild\\AlgorithmKMEANSBuild\\kmeans_alg.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B716AA8-1556-4013-B4C3-FF0028B860EA}|AlgorithmKMEANSBuild\\AlgorithmKMEANSBuild.vcxproj|solutionrelative:AlgorithmKMEANSBuild\\kmeans_alg.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IaBuild\\AlgorithmBuild\\knn_alg.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|solutionrelative:AlgorithmBuild\\knn_alg.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IaBuild\\AlgorithmBuild\\knn_alg.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}|AlgorithmBuild\\AlgorithmBuild.vcxproj|solutionrelative:AlgorithmBuild\\knn_alg.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IaBuild\\NeuronalNetworkBuild\\network.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\network.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\network.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\neuron.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\neuron.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\output_layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\output_layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\input_layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\input_layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\hidden_layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\hidden_layer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,19 +59,130 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "kmeans_alg.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmKMEANSBuild\\kmeans_alg.hpp",
+              "RelativeDocumentMoniker": "AlgorithmKMEANSBuild\\kmeans_alg.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmKMEANSBuild\\kmeans_alg.hpp",
+              "RelativeToolTip": "AlgorithmKMEANSBuild\\kmeans_alg.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:55:21.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "knn_alg.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\knn_alg.hpp",
+              "RelativeDocumentMoniker": "AlgorithmBuild\\knn_alg.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\knn_alg.hpp",
+              "RelativeToolTip": "AlgorithmBuild\\knn_alg.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:55:10.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "knn_alg.cc",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\knn_alg.cc",
+              "RelativeDocumentMoniker": "AlgorithmBuild\\knn_alg.cc",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\AlgorithmBuild\\knn_alg.cc",
+              "RelativeToolTip": "AlgorithmBuild\\knn_alg.cc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-31T20:55:07.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "output_layer.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\output_layer.hpp",
+              "RelativeDocumentMoniker": "NeuronalNetworkBuild\\output_layer.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\output_layer.hpp",
+              "RelativeToolTip": "NeuronalNetworkBuild\\output_layer.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:51:09.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "neuron.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\neuron.hpp",
+              "RelativeDocumentMoniker": "NeuronalNetworkBuild\\neuron.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\neuron.hpp",
+              "RelativeToolTip": "NeuronalNetworkBuild\\neuron.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:50:30.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "network.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.hpp",
+              "RelativeDocumentMoniker": "NeuronalNetworkBuild\\network.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.hpp",
+              "RelativeToolTip": "NeuronalNetworkBuild\\network.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:50:28.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "layer.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\layer.hpp",
+              "RelativeDocumentMoniker": "NeuronalNetworkBuild\\layer.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\layer.hpp",
+              "RelativeToolTip": "NeuronalNetworkBuild\\layer.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:50:22.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "input_layer.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\input_layer.hpp",
+              "RelativeDocumentMoniker": "NeuronalNetworkBuild\\input_layer.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\input_layer.hpp",
+              "RelativeToolTip": "NeuronalNetworkBuild\\input_layer.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:50:16.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "hidden_layer.hpp",
+              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\hidden_layer.hpp",
+              "RelativeDocumentMoniker": "NeuronalNetworkBuild\\hidden_layer.hpp",
+              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\hidden_layer.hpp",
+              "RelativeToolTip": "NeuronalNetworkBuild\\hidden_layer.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T20:49:40.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "network.cc",
               "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.cc",
               "RelativeDocumentMoniker": "NeuronalNetworkBuild\\network.cc",
               "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.cc",
               "RelativeToolTip": "NeuronalNetworkBuild\\network.cc",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAowI4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-25T21:18:36.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "data_handler.cc",
               "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
               "RelativeDocumentMoniker": "MachineLearningBuild\\data_handler.cc",
@@ -43,8 +190,7 @@
               "RelativeToolTip": "MachineLearningBuild\\data_handler.cc",
               "ViewState": "AgIAAMwAAAAAAAAAAAAAAPMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-26T01:04:08.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T01:04:08.746Z"
             }
           ]
         }

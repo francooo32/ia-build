@@ -8,9 +8,6 @@ class InputLayer : public Layer
 {
 	public:
 		InputLayer(int prev, int current) : Layer(prev, current) {}
-		~InputLayer();
-
-		void setLayerOutputs(data *d);
 };
 
 #endif

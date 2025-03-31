@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="neuronal_network.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="layer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -38,9 +35,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="neuronal_network.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="layer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>

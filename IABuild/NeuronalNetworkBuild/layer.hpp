@@ -17,8 +17,6 @@ public:
 	Layer(int, int);
 	~Layer();
 
-	std::vector<double> getLayerOutputs();
-	int getSize();
 };
 
 #endif

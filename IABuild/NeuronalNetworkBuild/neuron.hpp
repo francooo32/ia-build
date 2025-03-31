@@ -18,19 +18,6 @@ public:
 	Neuron(int, int);
 	~Neuron();
 	void initializeWeights(int previousLayerSize);
-	void setError(double);
-	void setWeight(double, int);
-	double calculatePreActivation(std::vector<double>);
-	double activate();
-	double calculateOutputDerivated();
-	double sigmoid();
-	double relu();
-	double leakyRelu();
-	double inverseSqtrRelu();
-	double getOutput();
-	double getOutputDerivate();
-	double getError();
-	std::vector<double> getWeights();
 };
 
 #endif 

@@ -134,7 +134,6 @@
     <ClInclude Include="layer.hpp" />
     <ClInclude Include="network.hpp" />
     <ClInclude Include="neuron.hpp" />
-    <ClInclude Include="neuronal_network.hpp" />
     <ClInclude Include="output_layer.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -143,7 +142,6 @@
     <ClCompile Include="layer.cc" />
     <ClCompile Include="network.cc" />
     <ClCompile Include="neuron.cc" />
-    <ClCompile Include="neuronal_network.cc" />
     <ClCompile Include="output_layer.cc" />
   </ItemGroup>
   <ItemGroup>
