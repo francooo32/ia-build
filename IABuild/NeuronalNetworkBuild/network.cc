@@ -48,6 +48,7 @@ double Network::activate(std::vector<double> weights, std::vector<double> inputs
 	for (int i = 0; i < weights.size() - 1; i++)
 	{
 		activation += weights[i] * inputs[i];
+		//activation += weights[i] * 1;
 	}
 	return activation;
 }
@@ -62,8 +63,6 @@ double Network::transferDerivate(double output)
 	return output * (1 - output);
 }
 
-
-
 int Network::predict(data* data)
 {
 	std::vector<double> outputs = fprop(data);
@@ -72,7 +71,7 @@ int Network::predict(data* data)
 
 void Network::bprop(data* data)
 {
-	for (int i = layers.size(); i >=0; i--)
+	for (int i = layers.size() - 1; i >=0; i--)
 	{
 		Layer* layer = layers.at(i);
 		std::vector<double> errors;
@@ -111,7 +110,7 @@ void Network::updateWeights(data* data)
 	{
 		if (i != 0)
 		{
-			for (Neuron* n : layers.at(i - 1)->neurons)
+			for (Neuron* n : layers.at(static_cast<std::vector<Layer*, std::allocator<Layer*>>::size_type>(i) - 1)->neurons)
 			{
 				inputs.push_back(n->output);
 			}
@@ -146,7 +145,7 @@ void Network::train(int numEpochs)
 			bprop(data);
 			updateWeights(data);
 		}
-		printf("Iteration: %d \t Error=%.4f \n", i, sumError);
+		printf("Iteration: %d \t Error=%.2f \n", i, sumError);
 	}
 }
 
@@ -195,14 +194,14 @@ int main()
 #endif 
 	/*dh->read_feature_vector("../MNIST_data/train-images.idx3-ubyte");
 	dh->read_feature_labels("../MNIST_data/train-labels.idx1-ubyte");*/
-	//dh->count_classes();
+	dh->count_classes();
 	dh->split_data();
 	std::vector<int> hiddenLayer = { 10 };
 	auto lambda = [&]() {
 		Network* net = new Network(hiddenLayer, 
-			dh->get_training_data()->at(0)->get_feature_vector()->size(), 
+			dh->get_training_data()->at(0)->get_double_feature_vector()->size(), 
 			dh->get_class_counts(), 
-			0.25);
+			0.99);
 		net->set_training_data(dh->get_training_data());
 		net->set_test_data(dh->get_test_data());
 		net->set_validation_data(dh->get_validation_data());

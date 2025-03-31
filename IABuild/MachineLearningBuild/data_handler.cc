@@ -1,4 +1,6 @@
 #include "data_handler.hpp"
+#include <algorithm>
+#include <random>
 
 data_handler::data_handler()
 {
@@ -12,44 +14,6 @@ data_handler::~data_handler()
 {
 
 }
-
-//void data_handler::read_csv(std::string path, std::string delimiter)
-//{
-//	num_classes = 0;
-//	std::ifstream data_file(path.c_str());
-//	std::string line;
-//
-//	while (std::getline(data_file, line))
-//	{
-//		if (line.length() == 0) continue;
-//		data* d = new data();
-//		d->set_double_feature_vector(new std::vector<double>());
-//		size_t position = 0;
-//		std::string token;
-//
-//		while ((position = line.find(delimiter)) != std::string::npos)
-//		{
-//			token = line.substr(0, position);
-//			d->append_to_feature_vector(std::stod(token));
-//			line.erase(0, position + delimiter.length());
-//		}
-//
-//		if (string_data_class_map.find(line) != string_data_class_map.end())
-//		{
-//			d->set_label(string_data_class_map[line]);
-//		}
-//		else
-//		{
-//			string_data_class_map[line] = num_classes;
-//			d->set_label(string_data_class_map[line]);
-//			num_classes++;
-//		}
-//
-//		data_array->push_back(d);
-//	}
-//
-//	feature_vector_size = data_array->at(0)->get_double_feature_vector()->size();
-//}
 
 void data_handler::read_csv(std::string path, std::string delimiter)
 {
@@ -84,9 +48,9 @@ void data_handler::read_csv(std::string path, std::string delimiter)
 		}
 		data_array->push_back(d);
 	}
-	for (data* data : *data_array)
-		data->set_class_vector(num_classes);;
-	//normalize();
+	for (data* dataToPass : *data_array) {
+		dataToPass->set_class_vector(num_classes);
+	}
 	feature_vector_size = data_array->at(0)->get_double_feature_vector()->size();
 }
 
@@ -177,48 +141,77 @@ void data_handler::split_data()
 	int test_size = data_array->size() * TEST_SET_PERCENT;
 	int valid_size = data_array->size() * VALIDATION_SET_PERCENT;
 
-	//Training data
+	std::random_shuffle(data_array->begin(), data_array->end());
+
+	// Training Data
 
 	int count = 0;
+	int index = 0;
 	while (count < train_size)
 	{
-		int rand_index = rand() % data_array->size();
-		if(used_indexes.find(rand_index) == used_indexes.end())
-		{
-			training_data->push_back(data_array->at(rand_index));
-			used_indexes.insert(rand_index);
-		}
+		training_data->push_back(data_array->at(index++));
 		count++;
-		//printf("%d\n", count);
 	}
 
-	//Test data
-
+	// Test Data
 	count = 0;
 	while (count < test_size)
 	{
-		int rand_index = rand() % data_array->size();
-		if (used_indexes.find(rand_index) == used_indexes.end())
-		{
-			test_data->push_back(data_array->at(rand_index));
-			used_indexes.insert(rand_index);
-		}
+		test_data->push_back(data_array->at(index++));
 		count++;
 	}
 
-	//Validation data
+	// Test Data
 
 	count = 0;
 	while (count < valid_size)
 	{
-		int rand_index = rand() % data_array->size();
-		if (used_indexes.find(rand_index) == used_indexes.end())
-		{
-			validation_data->push_back(data_array->at(rand_index));
-			used_indexes.insert(rand_index);
-		}
+		validation_data->push_back(data_array->at(index++));
 		count++;
 	}
+
+	//Training data
+
+	//int count = 0;
+	//while (count < train_size)
+	//{
+	//	int rand_index = rand() % data_array->size();
+	//	if(used_indexes.find(rand_index) == used_indexes.end())
+	//	{
+	//		training_data->push_back(data_array->at(rand_index));
+	//		used_indexes.insert(rand_index);
+	//	}
+	//	count++;
+	//	//printf("%d\n", count);
+	//}
+
+	////Test data
+
+	//count = 0;
+	//while (count < test_size)
+	//{
+	//	int rand_index = rand() % data_array->size();
+	//	if (used_indexes.find(rand_index) == used_indexes.end())
+	//	{
+	//		test_data->push_back(data_array->at(rand_index));
+	//		used_indexes.insert(rand_index);
+	//	}
+	//	count++;
+	//}
+
+	////Validation data
+
+	//count = 0;
+	//while (count < valid_size)
+	//{
+	//	int rand_index = rand() % data_array->size();
+	//	if (used_indexes.find(rand_index) == used_indexes.end())
+	//	{
+	//		validation_data->push_back(data_array->at(rand_index));
+	//		used_indexes.insert(rand_index);
+	//	}
+	//	count++;
+	//}
 
 	printf(TRAINING_SIZE, training_data->size());
 	printf(TEST_SIZE, test_data->size());

@@ -3,15 +3,11 @@
   "WorkspaceRootPath": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IaBuild\\NeuronalNetworkBuild\\network.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C83AFF96-3806-4598-A3F5-CC67CE03E92D}|NeuronalNetworkBuild\\NeuronalNetworkBuild.vcxproj|solutionrelative:NeuronalNetworkBuild\\network.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data_handler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IaBuild\\MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8BDBD608-7128-442B-86A8-EACF6A253051}|MachineLearningBuild\\MachineLearningBuild.vcxproj|solutionrelative:MachineLearningBuild\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,35 +28,22 @@
               "RelativeDocumentMoniker": "NeuronalNetworkBuild\\network.cc",
               "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\NeuronalNetworkBuild\\network.cc",
               "RelativeToolTip": "NeuronalNetworkBuild\\network.cc",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAAAMEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowI4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-25T21:18:36.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "data_handler.cc",
               "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
               "RelativeDocumentMoniker": "MachineLearningBuild\\data_handler.cc",
               "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.cc",
               "RelativeToolTip": "MachineLearningBuild\\data_handler.cc",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAFIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAAPMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-26T01:04:08.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "data_handler.hpp",
-              "DocumentMoniker": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.hpp",
-              "RelativeDocumentMoniker": "MachineLearningBuild\\data_handler.hpp",
-              "ToolTip": "G:\\ProyectosC\\ProyectoIA\\ia-build\\IABuild\\MachineLearningBuild\\data_handler.hpp",
-              "RelativeToolTip": "MachineLearningBuild\\data_handler.hpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-26T01:04:45.129Z",
               "EditorCaption": ""
             }
           ]
