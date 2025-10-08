@@ -1,0 +1,197 @@
+﻿  algorithm.cc
+G:\ProyectosC\ProyectoIA\ia-build\IABuild\MachineLearningBuild\data_handler.cc(34,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'algorithm.cc')
+  
+G:\ProyectosC\ProyectoIA\ia-build\IABuild\MachineLearningBuild\data_handler.cc(75,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'algorithm.cc')
+  
+G:\ProyectosC\ProyectoIA\ia-build\IABuild\MachineLearningBuild\data_handler.cc(99,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'algorithm.cc')
+  
+G:\ProyectosC\ProyectoIA\ia-build\IABuild\MachineLearningBuild\data_handler.cc(100,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'algorithm.cc')
+  
+G:\ProyectosC\ProyectoIA\ia-build\IABuild\MachineLearningBuild\data_handler.cc(101,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'algorithm.cc')
+  
+G:\ProyectosC\ProyectoIA\ia-build\IABuild\AlgorithmBuild\algorithm.cc(125,25): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  1 of 436 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  AlgorithmBuild.vcxproj -> G:\ProyectosC\ProyectoIA\ia-build\IABuild\x64\Release\AlgorithmBuild.exe
+
+Project Performance Summary:
+       32 ms  G:\ProyectosC\ProyectoIA\ia-build\IABuild\MachineLearningBuild\MachineLearningBuild.vcxproj   4 calls
+                  6 ms  GetTargetPath                              1 calls
+                  1 ms  GetNativeManifest                          1 calls
+                 21 ms  GetProjectInfoForReference                 1 calls
+                  4 ms  GetCopyToOutputDirectoryItems              1 calls
+     8128 ms  G:\ProyectosC\ProyectoIA\ia-build\IABuild\AlgorithmBuild\AlgorithmBuild.vcxproj   1 calls
+               8128 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeResolveLinkObj                      1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  GetProjectInfoForReference                 1 calls
+        0 ms  AddLibrariesToProjectsInfoForReference     1 calls
+        0 ms  AddDeployRecipeFileToProjectsInfoForReference   1 calls
+        0 ms  AddPublicIncludeDirectoriesToProjectsInfoForReference   1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  GetPublicIncludeDirectories                1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   2 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  SatelliteDllsProjectOutputGroup            1 calls
+        0 ms  BuiltProjectOutputGroup                    1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  DisableProjectReferenceRecursionForClInputs   1 calls
+        0 ms  Build                                      1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  ExpandSDKReferences                        2 calls
+        0 ms  AfterResolveReferences                     2 calls
+        0 ms  ResolveReferences                          2 calls
+        0 ms  GetFrameworkPaths                          2 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  GetTargetPath                              1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  PrepareProjectReferences                   2 calls
+        0 ms  ResolveSDKReferences                       2 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   2 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  BeforeResolveReferences                    2 calls
+        0 ms  ComputeCLInputPDBName                      2 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  IgnoreJavaScriptOutputAssembly             2 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  GetReferenceAssemblyPaths                  2 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  ResolvedLinkLib                            2 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeReferenceLinkInputs                 1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        1 ms  ComputeMIDLGeneratedCompileInputs          2 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  ComputeCLGeneratedLinkInputs               1 calls
+        1 ms  GetTargetPathWithTargetPlatformMoniker     1 calls
+        1 ms  AddPublicBMIsToProjectsInfoForReference    1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  ContentFilesProjectOutputGroup             1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  GetCopyToOutputDirectoryXamlAppDefs        2 calls
+        1 ms  _PrepareForReferenceResolution             2 calls
+        1 ms  _PrepareForBuild                           1 calls
+        1 ms  GetResolvedLinkLibs                        1 calls
+        1 ms  WarnCompileDuplicatedFilename              2 calls
+        1 ms  CopyFileToFolders                          1 calls
+        1 ms  ResolveAssemblyReferences                  2 calls
+        1 ms  SetCABuildNativeEnvironmentVariables       2 calls
+        1 ms  GetNativeManifest                          1 calls
+        1 ms  _GetCopyToOutputDirectoryItemsFromThisProject   2 calls
+        2 ms  ComputeStdModulesCompileInputs             2 calls
+        2 ms  MakeDirsForCl                              1 calls
+        2 ms  AddExternalIncludDirectoriesToPaths        2 calls
+        2 ms  _SplitProjectReferencesByFileExistence     2 calls
+        2 ms  FixupCLCompileOptions                      2 calls
+        2 ms  _CheckWindowsSDKInstalled                  2 calls
+        2 ms  FinalizeBuildStatus                        1 calls
+        3 ms  IncrementalClean                           1 calls
+        3 ms  SetBuildDefaultEnvironmentVariables        2 calls
+        3 ms  SplitResourcesByCulture                    1 calls
+        3 ms  AssignTargetPaths                          2 calls
+        4 ms  GetResolvedWinMD                           2 calls
+        6 ms  InitializeBuildStatus                      1 calls
+        7 ms  AssignProjectConfiguration                 2 calls
+        8 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+       10 ms  TlogCleanup                                1 calls
+       22 ms  PrepareForBuild                            2 calls
+       23 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   2 calls
+       27 ms  GetCopyToOutputDirectoryItems              2 calls
+       28 ms  GetReferencedVCProjectsInfo                2 calls
+       48 ms  CustomBuild                                1 calls
+       57 ms  CreateRecipeFile                           1 calls
+       85 ms  ResolveProjectReferences                   2 calls
+      150 ms  _GetProjectReferenceTargetFrameworkProperties   2 calls
+     1021 ms  SetTelemetryEnvironmentVariables           1 calls
+     1200 ms  _CheckForInvalidConfigurationAndPlatform   2 calls
+     1881 ms  Link                                       1 calls
+     3539 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  SetRidAgnosticValueForProjects             2 calls
+        0 ms  AssignCulture                              1 calls
+        1 ms  ResolveNonMSBuildProjectOutput             1 calls
+        1 ms  RemoveDuplicates                           2 calls
+        1 ms  ConvertToAbsolutePath                      1 calls
+        1 ms  WriteLinesToFile                           1 calls
+        2 ms  Delete                                     2 calls
+        2 ms  Touch                                      2 calls
+        2 ms  FindUnderPath                              5 calls
+        3 ms  VCMessage                                  2 calls
+        3 ms  ReadLinesFromFile                          2 calls
+        4 ms  AssignTargetPath                          14 calls
+        4 ms  CheckVCToolsetVersion                      2 calls
+        4 ms  Message                                    5 calls
+        4 ms  AssignProjectConfiguration                 2 calls
+        5 ms  MakeDir                                   12 calls
+        7 ms  SetEnv                                    17 calls
+       10 ms  CleanupStaleTlogItems                      1 calls
+       25 ms  CallTarget                                 4 calls
+       48 ms  GetOutOfDateItems                          3 calls
+       56 ms  GenerateDesktopDeployRecipe                1 calls
+      131 ms  MSBuild                                    5 calls
+     1876 ms  Link                                       1 calls
+     3535 ms  CL                                         1 calls

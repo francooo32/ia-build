@@ -21,6 +21,9 @@
     <ClInclude Include="data_handler.hpp">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="data.cc">
@@ -29,7 +32,7 @@
     <ClCompile Include="data_handler.cc">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="runner.cc">
+    <ClCompile Include="common.cc">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

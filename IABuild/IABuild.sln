@@ -5,7 +5,22 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MachineLearningBuild", "MachineLearningBuild\MachineLearningBuild.vcxproj", "{8BDBD608-7128-442B-86A8-EACF6A253051}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmBuild", "AlgorithmBuild\AlgorithmBuild.vcxproj", "{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmKNNBuild", "AlgorithmBuild\AlgorithmBuild.vcxproj", "{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BDBD608-7128-442B-86A8-EACF6A253051} = {8BDBD608-7128-442B-86A8-EACF6A253051}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{341F856E-6A0F-4C0D-A44E-6198419DCF84}"
+	ProjectSection(SolutionItems) = preProject
+		add_model.sh = add_model.sh
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmKMEANSBuild", "AlgorithmKMEANSBuild\AlgorithmKMEANSBuild.vcxproj", "{2B716AA8-1556-4013-B4C3-FF0028B860EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BDBD608-7128-442B-86A8-EACF6A253051} = {8BDBD608-7128-442B-86A8-EACF6A253051}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NeuronalNetworkBuild", "NeuronalNetworkBuild\NeuronalNetworkBuild.vcxproj", "{C83AFF96-3806-4598-A3F5-CC67CE03E92D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8BDBD608-7128-442B-86A8-EACF6A253051} = {8BDBD608-7128-442B-86A8-EACF6A253051}
 	EndProjectSection
@@ -19,11 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8BDBD608-7128-442B-86A8-EACF6A253051}.Debug|x64.ActiveCfg = Debug|x64
-		{8BDBD608-7128-442B-86A8-EACF6A253051}.Debug|x64.Build.0 = Debug|x64
 		{8BDBD608-7128-442B-86A8-EACF6A253051}.Debug|x86.ActiveCfg = Debug|Win32
 		{8BDBD608-7128-442B-86A8-EACF6A253051}.Debug|x86.Build.0 = Debug|Win32
 		{8BDBD608-7128-442B-86A8-EACF6A253051}.Release|x64.ActiveCfg = Release|x64
-		{8BDBD608-7128-442B-86A8-EACF6A253051}.Release|x64.Build.0 = Release|x64
 		{8BDBD608-7128-442B-86A8-EACF6A253051}.Release|x86.ActiveCfg = Release|Win32
 		{8BDBD608-7128-442B-86A8-EACF6A253051}.Release|x86.Build.0 = Release|Win32
 		{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}.Debug|x64.ActiveCfg = Debug|x64
@@ -34,6 +47,22 @@ Global
 		{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}.Release|x64.Build.0 = Release|x64
 		{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}.Release|x86.ActiveCfg = Release|Win32
 		{3FA9ECA2-EFFB-435A-8F8D-4651958A4416}.Release|x86.Build.0 = Release|Win32
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Debug|x64.ActiveCfg = Debug|x64
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Debug|x64.Build.0 = Debug|x64
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Debug|x86.Build.0 = Debug|Win32
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Release|x64.ActiveCfg = Release|x64
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Release|x64.Build.0 = Release|x64
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Release|x86.ActiveCfg = Release|Win32
+		{2B716AA8-1556-4013-B4C3-FF0028B860EA}.Release|x86.Build.0 = Release|Win32
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Debug|x64.ActiveCfg = Debug|x64
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Debug|x64.Build.0 = Debug|x64
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Debug|x86.Build.0 = Debug|Win32
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Release|x64.ActiveCfg = Release|x64
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Release|x64.Build.0 = Release|x64
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Release|x86.ActiveCfg = Release|Win32
+		{C83AFF96-3806-4598-A3F5-CC67CE03E92D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

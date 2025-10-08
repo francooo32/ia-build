@@ -1,4 +1,6 @@
 #include "data_handler.hpp"
+#include <algorithm>
+#include <random>
 
 data_handler::data_handler()
 {
@@ -13,9 +15,48 @@ data_handler::~data_handler()
 
 }
 
+void data_handler::read_csv(std::string path, std::string delimiter)
+{
+	num_classes = 0;
+	std::ifstream data_file;
+	data_file.open(path.c_str());
+	std::string line;
+
+	while (std::getline(data_file, line))
+	{
+		if (line.length() == 0) continue;
+		data* d = new data();
+		d->set_double_feature_vector(new std::vector<double>());
+		size_t position = 0;
+		std::string token;
+		while ((position = line.find(delimiter)) != std::string::npos)
+		{
+			token = line.substr(0, position);
+			d->append_to_feature_vector(std::stod(token));
+			line.erase(0, position + delimiter.length());
+		}
+
+		if (string_data_class_map.find(line) != string_data_class_map.end())
+		{
+			d->set_label(string_data_class_map[line]);
+		}
+		else
+		{
+			string_data_class_map[line] = num_classes;
+			d->set_label(string_data_class_map[token]);
+			num_classes++;
+		}
+		data_array->push_back(d);
+	}
+	for (data* dataToPass : *data_array) {
+		dataToPass->set_class_vector(num_classes);
+	}
+	feature_vector_size = data_array->at(0)->get_double_feature_vector()->size();
+}
+
 void data_handler::read_feature_vector(std::string path)
 {
-	uint32_t header[4]; // MAGIC | NUM IMAGES | ROWSIZE	| COLSIZE
+	uint32_t header[4]; 
 	unsigned char bytes[4];
 	FILE* f = fopen(path.c_str(), "rb");
 	if (f)
@@ -100,48 +141,77 @@ void data_handler::split_data()
 	int test_size = data_array->size() * TEST_SET_PERCENT;
 	int valid_size = data_array->size() * VALIDATION_SET_PERCENT;
 
-	//Training data
+	std::random_shuffle(data_array->begin(), data_array->end());
+
+	// Training Data
 
 	int count = 0;
+	int index = 0;
 	while (count < train_size)
 	{
-		int rand_index = rand() % data_array->size();
-		if(used_indexes.find(rand_index) == used_indexes.end())
-		{
-			training_data->push_back(data_array->at(rand_index));
-			used_indexes.insert(rand_index);
-		}
+		training_data->push_back(data_array->at(index++));
 		count++;
-		//printf("%d\n", count);
 	}
 
-	//Test data
-
+	// Test Data
 	count = 0;
 	while (count < test_size)
 	{
-		int rand_index = rand() % data_array->size();
-		if (used_indexes.find(rand_index) == used_indexes.end())
-		{
-			test_data->push_back(data_array->at(rand_index));
-			used_indexes.insert(rand_index);
-		}
+		test_data->push_back(data_array->at(index++));
 		count++;
 	}
 
-	//Validation data
+	// Test Data
 
 	count = 0;
 	while (count < valid_size)
 	{
-		int rand_index = rand() % data_array->size();
-		if (used_indexes.find(rand_index) == used_indexes.end())
-		{
-			validation_data->push_back(data_array->at(rand_index));
-			used_indexes.insert(rand_index);
-		}
+		validation_data->push_back(data_array->at(index++));
 		count++;
 	}
+
+	//Training data
+
+	//int count = 0;
+	//while (count < train_size)
+	//{
+	//	int rand_index = rand() % data_array->size();
+	//	if(used_indexes.find(rand_index) == used_indexes.end())
+	//	{
+	//		training_data->push_back(data_array->at(rand_index));
+	//		used_indexes.insert(rand_index);
+	//	}
+	//	count++;
+	//	//printf("%d\n", count);
+	//}
+
+	////Test data
+
+	//count = 0;
+	//while (count < test_size)
+	//{
+	//	int rand_index = rand() % data_array->size();
+	//	if (used_indexes.find(rand_index) == used_indexes.end())
+	//	{
+	//		test_data->push_back(data_array->at(rand_index));
+	//		used_indexes.insert(rand_index);
+	//	}
+	//	count++;
+	//}
+
+	////Validation data
+
+	//count = 0;
+	//while (count < valid_size)
+	//{
+	//	int rand_index = rand() % data_array->size();
+	//	if (used_indexes.find(rand_index) == used_indexes.end())
+	//	{
+	//		validation_data->push_back(data_array->at(rand_index));
+	//		used_indexes.insert(rand_index);
+	//	}
+	//	count++;
+	//}
 
 	printf(TRAINING_SIZE, training_data->size());
 	printf(TEST_SIZE, test_data->size());
@@ -159,8 +229,54 @@ void data_handler::count_classes()
 			count++; 
 		}
 	}
-	num_clases = count;
-	printf(SUCESS_EXTRACTING_CLASSES, num_clases);
+	num_classes = count;
+
+	for (data* data : *data_array)
+		data->set_class_vector(num_classes);
+
+	printf(SUCESS_EXTRACTING_CLASSES, num_classes);
+}
+
+void data_handler::normalize()
+{
+	std::vector<double> mins, maxs;
+
+	data *d = data_array->at(0);
+	for (auto val : *d->get_feature_vector())
+	{
+		mins.push_back(val);
+		maxs.push_back(val);
+	}
+
+	for (int i = 1; i < data_array->size(); i++)
+	{
+		d = data_array->at(i);
+		for (int j = 0; j < d->get_feature_vector_size(); j++)
+		{
+			double value = (double)d->get_feature_vector()->at(j);
+			if (value < mins.at(j)) mins[j] = value;
+			if (value > maxs.at(j)) maxs[j] = value;
+		}
+	}
+
+	for (int i = 1; i < data_array->size(); i++)
+	{
+		data_array->at(i)->set_double_feature_vector(new std::vector<double>());
+		data_array->at(i)->set_class_vector(num_classes);
+		for (int j = 0; j < data_array->at(i)->get_feature_vector_size(); j++)
+		{
+			if (maxs[j] - mins[j] == 0)
+			{
+				data_array->at(i)->append_to_feature_vector(0.0);
+			}
+			else 
+			{
+				data_array->at(j)->append_to_feature_vector(
+					(double) (data_array->at(i)->get_feature_vector()->at(j) - mins[j]) / (maxs[j] - mins[j])
+				);
+			}
+		}
+	}
 }
 
 uint32_t data_handler::convert_to_little_endian(const unsigned char* bytes)
@@ -183,11 +299,7 @@ std::vector<data*>* data_handler::get_validation_data()
 	return validation_data;
 }
 
-int main() 
+int data_handler::get_class_counts()
 {
-	data_handler* dh = new data_handler();
-	dh->read_feature_vector("../MNIST_data/train-images.idx3-ubyte");
-	dh->read_feature_labels("../MNIST_data/train-labels.idx1-ubyte");
-	dh->split_data();
-	dh->count_classes();
+	return num_classes;
 }
