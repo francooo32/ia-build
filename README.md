@@ -1,2 +1,2 @@
 # ia-build
-The build for my first IA
+The machine learning core build for my first IA
